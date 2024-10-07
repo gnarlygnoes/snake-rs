@@ -119,14 +119,15 @@ async fn main() {
                 WHITE,
             );
         } else {
-            draw_text("Game O'er", 300., 200., 50., WHITE);
+            draw_text("Game O'er", 200., 200., 50., WHITE);
             draw_text(
                 format!("Final score is: {player_score}").as_str(),
-                300.,
+                200.,
                 300.,
                 42.,
                 WHITE,
             );
+            draw_text("Hit enter to start again.", 200., 400., 42., WHITE);
             if is_key_pressed(KeyCode::Enter) {
                 player_score = 0;
                 food_pos = tile_position(tile_size, tiles_x, tiles_y);
