@@ -1,0 +1,11 @@
+/home/david/Documents/horseporn/rust/game_engines/macroquad/snake/target/debug/deps/libslotmap-6d1a619ed4eca781.rmeta: /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/lib.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/basic.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/dense.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/hop.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/secondary.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/sparse_secondary.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/util.rs
+
+/home/david/Documents/horseporn/rust/game_engines/macroquad/snake/target/debug/deps/slotmap-6d1a619ed4eca781.d: /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/lib.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/basic.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/dense.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/hop.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/secondary.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/sparse_secondary.rs /home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/util.rs
+
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/lib.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/basic.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/dense.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/hop.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/secondary.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/sparse_secondary.rs:
+/home/david/.cargo/registry/src/index.crates.io-6f17d22bba15001f/slotmap-1.0.7/src/util.rs:
