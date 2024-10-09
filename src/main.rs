@@ -1,3 +1,4 @@
+use ::rand::Rng;
 use macroquad::prelude::*;
 
 #[macroquad::main("Snake")]
@@ -119,15 +120,15 @@ async fn main() {
                 WHITE,
             );
         } else {
-            draw_text("Game O'er", 200., 200., 50., WHITE);
+            draw_text("Game O'er", 250., 200., 50., WHITE);
             draw_text(
                 format!("Final score is: {player_score}").as_str(),
-                200.,
+                250.,
                 300.,
                 42.,
                 WHITE,
             );
-            draw_text("Hit enter to start again.", 200., 400., 42., WHITE);
+            draw_text("Hit enter to start again.", 250., 400., 42., WHITE);
             if is_key_pressed(KeyCode::Enter) {
                 player_score = 0;
                 food_pos = tile_position(tile_size, tiles_x, tiles_y);
@@ -180,9 +181,15 @@ fn set_speed(level: i8) -> f32 {
 }
 
 fn tile_position(tile_size: f32, tiles_x: f32, tiles_y: f32) -> Vec2 {
+    let mut rng = ::rand::thread_rng();
+    // if rng.gen_bool() {
+    //     println!("{}", true);
+    // }
+    // let x = rng.gen_range(tiles_x);
+
     return Vec2 {
-        x: rand::gen_range(0, tiles_x as i32) as f32 * tile_size,
-        y: rand::gen_range(0, tiles_y as i32) as f32 * tile_size,
+        x: rng.gen_range(0..tiles_x as i32) as f32 * tile_size,
+        y: rng.gen_range(0..tiles_y as i32) as f32 * tile_size,
     };
 }
 
